@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 3"
-date: last-modified
+subtitle: "Due date: 5 October"
 format: 
   html:
     self-contained: true
@@ -10,21 +10,21 @@ execute:
   echo: true
 ---
 
-Please upload your completed assignment by pushing prior to to due date your final version to the Github repository you have shared with us. *We should be able to run your script with no errors.*  
+Please upload your completed assignment to the ELMs course site (under the assignments menu). Remember to include an annotated script file for all work with R and show your math for all other problems (if applicable, or necessary). Please also upload your completed assignment to the Github repository that you have shared with us. *We should be able to run your script with no errors.*
 
 **Total points: 30**
 
 ## Question 1
 
-Suppose I want to examine the hypothesis that consuming political news coverage from cable network channels (e.g., CNN, MSNBC, Fox News, etc.) causes citizens to have less trust in government than if they were to consume it from mainstream print media (e.g., New York Times, Wall Street Journal, etc.). What is more, suppose that I believe that this effect is greatest among “young” citizens. Design the contours of an experiment to test this proposition (and be sure to sketch the key elements of the experimental design). Second, briefly describe any significant shortcomings that the experimental design might have.
-
 *Points: 10*
+
+Suppose I want to examine the hypothesis that consuming political news coverage from cable network channels (e.g., CNN, MSNBC, Fox News, etc.) causes citizens to have less trust in government than if they were to consume it from mainstream print media (e.g., New York Times, Wall Street Journal, etc.). What is more, suppose that I believe that this effect is greatest among “young” citizens. Design the contours of an experiment to test this proposition (and be sure to sketch the key elements of the experimental design). Second, briefly describe any significant shortcomings that the experimental design might have.
 
 ## Question 2
 
-Below are four hypothetical research designs to determine the effects of democratic governance on the funding of educational institutions. Briefly evaluate each sampling design in terms of its: (1) sampling variability and (2) sources of potential bias.
-
 *Points: 10*
+
+Below are four hypothetical research designs to determine the effects of democratic governance on the funding of educational institutions. Briefly evaluate each sampling design in terms of its: (1) sampling variability and (2) sources of potential bias.
 
 A.    A sample of educational funding levels for every country in Europe for each of the last 100 years.
 
@@ -36,6 +36,12 @@ D.    A sample of 75 randomly selected countries’ educational funding levels f
 
 ## Question 3
 
-Using the `hanmerKalkanANES` dataset (posted on Elms), construct a cross-tab with `presvote` (dichotomous variable coded with a value label) as the dependent variable and `ageCategorical` (1 = 18-30; 2 = 31-40; 3 = 41-50; 4 = 51-60; and 5 = 61-over) as the independent variable. Create a table with the cross-tab results and interpret them – i.e., what is the apparent association, if any, between age and U.S. presidential vote in 2004? Next, what is: (A) the conditional distribution of respondents who are 41-50 that voted for Kerry; and (B) the conditional distribution of respondents who are 41-50 that voted for Bush?
-
 *Points: 10*
+
+Using the `hanmerKalkanANES` dataset (posted on ELMs), construct a cross-tab with `presvote` (dichotomous variable coded with a value label) as the dependent variable and `ageCategorical` (1 = 18-30; 2 = 31-40; 3 = 41-50; 4 = 51-60; and 5 = 61-over) as the independent variable. Create a table with the cross-tab results and interpret them – i.e., what is the apparent association, if any, between age and U.S. presidential vote in 2004? 
+
+Next, what is: 
+
+A.    The conditional distribution of respondents who are 41-50 that voted for Kerry? 
+
+B.    The conditional distribution of respondents who are 41-50 that voted for Bush?
