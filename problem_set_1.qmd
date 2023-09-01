@@ -1,16 +1,17 @@
 ---
 title: "Problem Set 1"
-date: last-modified
+subtitle: "Due date: 14 September"
 format: 
   html:
     self-contained: true
-toc: true
 editor: visual
 execute: 
   echo: true
 ---
 
-Please upload your completed assignment by pushing prior to to due date your final version to the Github repository you have shared with us. *We should be able to run your script with no errors.*  
+Please upload your completed assignment to the ELMs course site (under the assignments menu).
+Remember to include an annotated script file for all work with R and show your math for all other
+problems (if applicable, or necessary). Please also upload your completed assignment to the Github repository that you have shared with us. *We should be able to run your script with no errors.*  
 
 **Total points: 25**
 
