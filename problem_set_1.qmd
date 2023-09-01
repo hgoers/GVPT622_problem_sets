@@ -9,9 +9,7 @@ execute:
   echo: true
 ---
 
-Please upload your completed assignment to the ELMs course site (under the assignments menu).
-Remember to include an annotated script file for all work with R and show your math for all other
-problems (if applicable, or necessary). Please also upload your completed assignment to the Github repository that you have shared with us. *We should be able to run your script with no errors.*  
+Please upload your completed assignment to the ELMs course site (under the assignments menu). Remember to include an annotated script file for all work with R and show your math for all other problems (if applicable, or necessary). Please also upload your completed assignment to the Github repository that you have shared with us. *We should be able to run your script with no errors.*
 
 **Total points: 25**
 
@@ -19,7 +17,7 @@ problems (if applicable, or necessary). Please also upload your completed assign
 
 Using the `gss` dataset (which has survey data with the individual respondent as the unit of analysis), create a frequency distribution and bar chart for each of the following variables: `degree` and `partyid_3`. Describe the distribution of each variable in detail.
 
-::: {.callout-note}
+::: callout-note
 The `gss` dataset can be found in `poliscidata::gss`. Take a look at `?gss` to see what these variables measure.
 :::
 
@@ -60,8 +58,8 @@ A polling firm is interested in determining how different characteristics of an 
 
 Using the `states` dataset (the unit of analysis is each U.S. state), generate a box plot and density curve for each of the `vep12_turnout` and `cig_tax12` variables. Describe the distribution of each variable in detail.
 
-::: {.callout-note}
-The `states` data set can be found in `poliscidata::states`. Take a look at `?states` to see what these variables measure. 
+::: callout-note
+The `states` data set can be found in `poliscidata::states`. Take a look at `?states` to see what these variables measure.
 :::
 
 *Points: 5*
