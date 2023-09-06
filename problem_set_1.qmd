@@ -15,13 +15,13 @@ Please upload your completed assignment to the ELMs course site (under the assig
 
 ## Question 1
 
+*Points: 5*
+
 Using the `gss` dataset (which has survey data with the individual respondent as the unit of analysis), create a frequency distribution and bar chart for each of the following variables: `degree` and `partyid_3`. Describe the distribution of each variable in detail.
 
 ::: callout-note
 The `gss` dataset can be found in `poliscidata::gss`. Take a look at `?gss` to see what these variables measure.
 :::
-
-*Points: 5*
 
 ## Question 2
 
@@ -38,28 +38,28 @@ iq <- c(
 
 ### Part A
 
-Find the five-number summary, mean, and standard deviation for these data. Also, are there any suspected outliers in the distribution? If so, what are they and how do you know?
-
 *Points: 5*
+
+Find the five-number summary, mean, and standard deviation for these data. Also, are there any suspected outliers in the distribution? If so, what are they and how do you know?
 
 ### Part B
 
-In large populations, IQ scores are standardized to have a mean of 100 and a standard deviation of 15. In what way does the distribution among these students differ from the overall population?
-
 *Points: 5*
+
+In large populations, IQ scores are standardized to have a mean of 100 and a standard deviation of 15. In what way does the distribution among these students differ from the overall population?
 
 ## Question 3
 
-A polling firm is interested in determining how different characteristics of an individual affect vote choice. They record the following characteristics for each survey respondent - race, age, household income, and party affiliation. What "type" of variable does each characteristic most likely represent?
-
 *Points: 5*
 
+A polling firm is interested in determining how different characteristics of an individual affect vote choice. They record the following characteristics for each survey respondent - race, age, household income, and party affiliation. What "type" of variable does each characteristic most likely represent?
+
 ## Question 4
+
+*Points: 5*
 
 Using the `states` dataset (the unit of analysis is each U.S. state), generate a box plot and density curve for each of the `vep12_turnout` and `cig_tax12` variables. Describe the distribution of each variable in detail.
 
 ::: callout-note
 The `states` data set can be found in `poliscidata::states`. Take a look at `?states` to see what these variables measure.
 :::
-
-*Points: 5*
