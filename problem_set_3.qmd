@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 3"
-subtitle: "Due date: 5 October"
+subtitle: "Due date: 2 October"
 format: 
   html:
     self-contained: true
@@ -24,7 +24,7 @@ Suppose I want to examine the hypothesis that consuming political news coverage 
 
 *Points: 10*
 
-Below are four hypothetical research designs to determine the effects of democratic governance on the funding of educational institutions. Briefly evaluate each sampling design in terms of its: (1) sampling variability and (2) sources of potential bias.
+Below are four hypothetical research designs to determine the effects of democratic governance on the funding of educational institutions. Briefly evaluate each sampling design in terms of its: (1) sampling variability; and, (2) sources of potential bias.
 
 A.  A sample of educational funding levels for every country in Europe for each of the last 100 years.
 

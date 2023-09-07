@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 5"
-subtitle: "Due date: 26 October"
+subtitle: "Due date: 23 October"
 format: 
   html:
     self-contained: true

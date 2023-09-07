@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 2"
-subtitle: "Due date: 28 September"
+subtitle: "Due date: 25 September"
 format: 
   html:
     self-contained: true
@@ -23,7 +23,7 @@ Please upload your completed assignment to the ELMs course site (under the assig
 Using the `states` data, produce a scatterplot of the variables `womleg_2015` and `libpct_m` (with `womleg_2015` as the dependent variable on the y-axis). Describe the scatterplot and include a copy of it. Note any suspected outliers, if any (a visual inspection will suffice for this question). Lastly, give the general equation for the correlation between `womleg_2015` and `libpct_m` (include as much information as possible), but do not solve it.
 
 ::: callout-note
-The variable `libpct_m` indicates the percentage of a state's population that identifies as liberal. The variable `womleg_2015` reflects the percentage of a state's legislators (in 2015) who were women.
+The `states` data set can be found in `poliscidata::states`. Take a look at `?states` to see what these variables measure.
 :::
 
 ## Question 2
@@ -36,16 +36,24 @@ Regress `womleg_2015` (as the dependent variable) on `libpct_m` and report the r
 
 *Points: 5*
 
-Based on this regression, find the predicted value, the observed value, and compute the residual for the state of Colorado and then the state of Georgia. Lastly, compute the total aggregate error from those two select observations combined (i.e., Colorado and Georgia) (Hint: think RSS).
+Based on this regression, find the predicted value, the observed value, and compute the residual for the state of Colorado and then the state of Georgia. Lastly, compute the total aggregate error from those two select observations combined (i.e., Colorado and Georgia).
+
+::: callout-tip
+Think RSS.
+:::
 
 ## Question 4
 
 *Points: 5*
 
-Using the `states` data, assess the relationship between the following two variables: `obama_win12` and `gun_rank3`. Construct a cross-tab and describe the nature of the relationship (if any) in detail.
+Using the `states` dataset, assess the relationship between the following two variables: `obama_win12` and `gun_rank3`. Construct a cross-tab and describe the nature of the relationship (if any) in detail.
 
 ::: callout-note
-The variable `Obama_win12` is a dichotomous indicator of whether Obama won the state in 2012 (Obama won; Obama lost). The variable `gun_rank3` represents the general (ordinal) extent of gun restrictions in each state (more restrictions; middle restrictions; less restrictions). Also, please note that you would customarily want a greater number of observations within each cell before conducting such an analysis.
+The variable `Obama_win12` is a dichotomous indicator of whether Obama won the state in 2012 (Obama won; Obama lost). The variable `gun_rank3` represents the general (ordinal) extent of gun restrictions in each state (more restrictions; middle restrictions; less restrictions).
+:::
+
+::: callout-caution
+Please note that you would customarily want a greater number of observations within each cell before conducting such an analysis.
 :::
 
 ## Question 5
