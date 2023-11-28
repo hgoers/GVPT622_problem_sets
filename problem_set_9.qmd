@@ -20,20 +20,22 @@ Please upload your completed assignment to the ELMs course site (under the assig
 
 Table 1 below reports the results from two regression models. In Model 1, in Table 1, $Y$ is regressed on $X_1$ and, in Model 2, $Y$ is regressed on both $X_1$ and $X_2$. Why might $X_1$ be statistically significant at conventional levels in Model 1 but statistically insignificant in Model 2? Be as specific as possible.
 
+![](img/ps9.png)
+
 ## Question 2
 
 *Points: 10*
 
-Using the `censusAggregate` dataset (posted on ELMs) — which is survey data aggregated to the state level (1972-2000) — estimate a regression with `vote` as the dependent variable and the following independent variables: `nonSouth`, `edr`, and `pcthsg`. Report the results in a professionally formatted table and interpret the regression results. 
+Using the `censusAggregate` dataset (posted on ELMs) --- which is survey data aggregated to the state level (1972-2000) --- estimate a regression with `vote` as the dependent variable and the following independent variables: `nonSouth`, `edr`, and `pcthsg`. Report the results in a professionally formatted table and interpret the regression results.
 
 Also, create a figure to display the predicted values (with confidence intervals) for the effect of `pcthsg` on the turnout rate. Lastly, is it meaningful to interpret the constant term on its own? Why, or why not?
 
-::: {.callout-note}
-`vote` is the turnout rate in a state in a given year (i.e., the number of people who voted divided by the number eligible to vote). 
+::: callout-note
+`vote` is the turnout rate in a state in a given year (i.e., the number of people who voted divided by the number eligible to vote).
 
-`nonSouth` is a dummy variable equal to `0` for Southern states and a `1` for non-Southern states. 
+`nonSouth` is a dummy variable equal to `0` for Southern states and a `1` for non-Southern states.
 
-`pcthsg` is the percentage of the population in a state that graduated high school. 
+`pcthsg` is the percentage of the population in a state that graduated high school.
 
 `edr` is a dummy variable equal to `1` for states that used election-day registration and a `0` for states without election-day registration.
 :::
