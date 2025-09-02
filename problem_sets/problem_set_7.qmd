@@ -1,0 +1,75 @@
+---
+title: "Problem Set 7"
+subtitle: "Due date: 30 October"
+format: 
+  html:
+    self-contained: true
+toc: true
+editor: visual
+execute: 
+  echo: true
+  warning: false
+---
+
+Please upload your completed assignment to the ELMs course site (under the assignments menu) and to your class Github repository. You need to upload both your Quarto document (with R code, as needed) and its rendered output (either as a PDF or HTML file).
+
+**Total points: 20**
+
+## Question 1
+
+*Total points: 10*
+
+I hypothesize that the older someone is, the more they like watching golf. I conduct a survey based on an SRS of adults in America. The independent variable is a four-category measure of age: 21-35, 36-50, 51-65, 66-plus. The dependent variable is a three-category measure of how much they enjoy watching golf: not at all, somewhat, very much.
+
+### Part A
+
+*Points: 4*
+
+Make a cross-tab, by hand, of the relationship between these two variables based on the following (completely made up) data. Make sure that you present both raw counts and the appropriate percentages to examine the relationship.
+
+```{r}
+age_golf_df <- tibble::tibble(
+  age = c("21-35", "51-65", "66-plus", "21-35", "36-50", "21-35", "36-50",
+          "66-plus", "36-50", "51-65", "51-65", "21-35", "36-50", "21-35",
+          "66-plus", "51-65", "36-50", "66-plus", "51-65", "21-35", "66-plus",
+          "21-35", "36-50", "66-plus", "21-35", "36-50", "21-35", "66-plus",
+          "51-65", "51-65", "66-plus", "21-35", "66-plus", "21-35", "51-65",
+          "66-plus", "21-35", "36-50", "36-50", "66-plus"),
+  preference = c("Somewhat", "Not at all", "Very much", "Not at all", "Somewhat",
+                 "Not at all", "Not at all", "Somewhat", "Very much", "Very much",
+                 "Somewhat", "Not at all", "Somewhat", "Very much", "Not at all",
+                 "Not at all", "Somewhat", "Somewhat", "Very much", "Somewhat",
+                 "Very much", "Somewhat", "Very much", "Somewhat", "Not at all",
+                 "Very much", "Somewhat", "Somewhat", "Somewhat", "Very much",
+                 "Not at all", "Not at all", "Very much", "Somewhat", "Very much",
+                 "Very much", "Somewhat", "Somewhat", "Somewhat", "Not at all")
+)
+
+age_golf_df
+```
+
+### Part B
+
+*Points: 2*
+
+Do the data support my hypothesis? Be sure to explain the nature of the relationship (or lack thereof, if relevant).
+
+### Part C
+
+*Points: 2*
+
+Compute (by hand) the chi-square statistic to test the null hypothesis of no relationship between these two variables. Be sure to show your work.
+
+### Part D
+
+*Points: 2*
+
+Using the chi-square statistic that you computed in question 1(c), can you reject the null hypothesis of no relationship between these two variables with 95% confidence? Why, or why not?
+
+## Question 2
+
+*Points: 10*
+
+I hypothesize that people with higher levels of education tend to be more likely to pay higher levels of attention to politics. Use the `nes` dataset from the `polisciols` package to test my hypothesis. Create a cross-tab examining the relationship between individuals' levels of education (`education`) and the time they spend paying attention to politics (`attention_to_politics`).
+
+Do the data support my hypothesis? Be sure to explain the nature of the relationship (or lack thereof, if relevant). Report a chi-square statistic. What does the chi-square statistic tell you about whether you can reject the null hypothesis of no relationship between these two variables with 95% confidence? Why, or why not?
