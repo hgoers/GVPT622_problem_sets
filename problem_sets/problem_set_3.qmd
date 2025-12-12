@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 3"
-subtitle: "Due date: 25 September"
+subtitle: "Due date: 30 September"
 format: 
   html:
     self-contained: true
@@ -13,7 +13,7 @@ bibliography: references.bib
 
 Please upload your completed assignment to the ELMs course site (under the assignments menu) and to your class Github repository. You need to upload both your Quarto document (with R code, as needed) and its rendered output (either as a PDF or HTML file).
 
-**Total points: 30**
+**Total points: 29**
 
 ```{r}
 dem_wealth_df <- readr::read_csv("http://svmiller.com/extdata/democracy-income-1950.csv") |> 
@@ -50,7 +50,7 @@ I would like to know whether individuals with higher levels of education tend to
 
 *Points: 5*
 
-> Using the `nes` data set in the `polisciols` R package, construct a cross-tab of the relationship between `attention_to_politics` and `education`. Focus only on those respondents who provided answers (filter out "Refused", "Don't know", and missing responses).
+> Using the `nes2024` data set in the `polisciols` R package, construct a cross-tab of the relationship between `attention_to_politics` and `education`.
 
 ### Part B
 

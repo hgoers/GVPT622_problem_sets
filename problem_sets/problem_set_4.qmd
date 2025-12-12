@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 4"
-subtitle: "Due date: 9 October"
+subtitle: "Due date: 14 October"
 format: 
   html:
     self-contained: true
@@ -36,7 +36,7 @@ I roll a fair six-sided dice and I get a number greater than three. What is the 
 
 *Points: 10*
 
-Assume that in the United States, 15% of people are smokers and, of smokers, 60% smoke at least one pack a day. Among those who smoke at least a pack a day, 60% will develop lung cancer at some point in their lives while, in the rest of the p opulation (which includes smokers who smoke less than a pack a day and non-smokers), only 10% will. What is the probability that a person who develops lung cancer was a smoker who smoked at least a pack a day?
+Assume that in the United States, 15% of people are smokers and, of smokers, 60% smoke at least one pack a day. Among those who smoke at least a pack a day, 60% will develop lung cancer at some point in their lives while, in the rest of the population (which includes smokers who smoke less than a pack a day and non-smokers), only 10% will. What is the probability that a person who develops lung cancer was a smoker who smoked at least a pack a day?
 
 ## Question 5
 

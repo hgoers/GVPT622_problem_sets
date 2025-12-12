@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 7"
-subtitle: "Due date: 30 October"
+subtitle: "Due date: 4 November"
 format: 
   html:
     self-contained: true
@@ -70,6 +70,6 @@ Using the chi-square statistic that you computed in question 1(c), can you rejec
 
 *Points: 10*
 
-I hypothesize that people with higher levels of education tend to be more likely to pay higher levels of attention to politics. Use the `nes` dataset from the `polisciols` package to test my hypothesis. Create a cross-tab examining the relationship between individuals' levels of education (`education`) and the time they spend paying attention to politics (`attention_to_politics`).
+I hypothesize that people with higher levels of education tend to be more likely to pay higher levels of attention to politics. Use the `nes2024` dataset from the `polisciols` package to test my hypothesis. Create a cross-tab examining the relationship between individuals' levels of education (`education`) and the time they spend paying attention to politics (`attention_to_politics`).
 
 Do the data support my hypothesis? Be sure to explain the nature of the relationship (or lack thereof, if relevant). Report a chi-square statistic. What does the chi-square statistic tell you about whether you can reject the null hypothesis of no relationship between these two variables with 95% confidence? Why, or why not?

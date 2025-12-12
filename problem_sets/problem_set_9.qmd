@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 9"
-subtitle: "Due date: 4 December"
+subtitle: "Due date: 9 December"
 format: 
   html:
     self-contained: true
@@ -46,7 +46,7 @@ Also, create a figure to display the predicted values (with confidence intervals
 
 *Points: 5*
 
-Using the regression results from the previous question, evaluate the null hypothesis that the effects (i.e., regression coefficients) of `nonSouth` and `pcthsg` are jointly equal to zero. Can you reject the null hypothesis? Be sure to demonstrate how you reached a definitive conclusion.
+A linear regression model of the turnout rate in a state (`vote`) estimated by the percentage of the population in a state that graduated high school (`pcthsg`) alone shows this sole independent variable to be less likely to be observed if it had no explanatory power (the null were true) compared to the fuller model estimated in the last question. Why is this the case?
 
 ## Question 4
 
